@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF13C9C19939FD90055C677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9B19939FD90055C677 /* Foundation.framework */; };
+		BAF13C9E19939FD90055C677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9D19939FD90055C677 /* CoreGraphics.framework */; };
+		BAF13CA019939FD90055C677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9F19939FD90055C677 /* UIKit.framework */; };
+		BAF13CA619939FD90055C677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAF13CA419939FD90055C677 /* InfoPlist.strings */; };
+		BAF13CA819939FD90055C677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF13CA719939FD90055C677 /* main.m */; };
+		BAF13CAC19939FD90055C677 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF13CAB19939FD90055C677 /* AppDelegate.m */; };
+		BAF13CAF19939FD90055C677 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF13CAD19939FD90055C677 /* Main_iPhone.storyboard */; };
+		BAF13CB219939FD90055C677 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF13CB019939FD90055C677 /* Main_iPad.storyboard */; };
+		BAF13CB519939FD90055C677 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF13CB419939FD90055C677 /* ViewController.m */; };
+		BAF13CB719939FD90055C677 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF13CB619939FD90055C677 /* Images.xcassets */; };
+		BAF13CBE19939FD90055C677 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13CBD19939FD90055C677 /* XCTest.framework */; };
+		BAF13CBF19939FD90055C677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9B19939FD90055C677 /* Foundation.framework */; };
+		BAF13CC019939FD90055C677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9F19939FD90055C677 /* UIKit.framework */; };
+		BAF13CC819939FD90055C677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAF13CC619939FD90055C677 /* InfoPlist.strings */; };
+		BAF13CCA19939FD90055C677 /* GoogleDriveExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF13CC919939FD90055C677 /* GoogleDriveExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAF13CC119939FD90055C677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF13C9019939FD90055C677 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF13C9719939FD90055C677;
+			remoteInfo = GoogleDriveExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAF13C9819939FD90055C677 /* GoogleDriveExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDriveExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF13C9B19939FD90055C677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAF13C9D19939FD90055C677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAF13C9F19939FD90055C677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAF13CA319939FD90055C677 /* GoogleDriveExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleDriveExample-Info.plist"; sourceTree = "<group>"; };
+		BAF13CA519939FD90055C677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAF13CA719939FD90055C677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAF13CA919939FD90055C677 /* GoogleDriveExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleDriveExample-Prefix.pch"; sourceTree = "<group>"; };
+		BAF13CAA19939FD90055C677 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAF13CAB19939FD90055C677 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAF13CAE19939FD90055C677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BAF13CB119939FD90055C677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BAF13CB319939FD90055C677 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAF13CB419939FD90055C677 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAF13CB619939FD90055C677 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAF13CBC19939FD90055C677 /* GoogleDriveExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDriveExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF13CBD19939FD90055C677 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BAF13CC519939FD90055C677 /* GoogleDriveExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleDriveExampleTests-Info.plist"; sourceTree = "<group>"; };
+		BAF13CC719939FD90055C677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAF13CC919939FD90055C677 /* GoogleDriveExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleDriveExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF13C9519939FD90055C677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF13C9E19939FD90055C677 /* CoreGraphics.framework in Frameworks */,
+				BAF13CA019939FD90055C677 /* UIKit.framework in Frameworks */,
+				BAF13C9C19939FD90055C677 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF13CB919939FD90055C677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF13CBE19939FD90055C677 /* XCTest.framework in Frameworks */,
+				BAF13CC019939FD90055C677 /* UIKit.framework in Frameworks */,
+				BAF13CBF19939FD90055C677 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF13C8F19939FD90055C677 = {
+			isa = PBXGroup;
+			children = (
+				BAF13CA119939FD90055C677 /* GoogleDriveExample */,
+				BAF13CC319939FD90055C677 /* GoogleDriveExampleTests */,
+				BAF13C9A19939FD90055C677 /* Frameworks */,
+				BAF13C9919939FD90055C677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF13C9919939FD90055C677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF13C9819939FD90055C677 /* GoogleDriveExample.app */,
+				BAF13CBC19939FD90055C677 /* GoogleDriveExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF13C9A19939FD90055C677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF13C9B19939FD90055C677 /* Foundation.framework */,
+				BAF13C9D19939FD90055C677 /* CoreGraphics.framework */,
+				BAF13C9F19939FD90055C677 /* UIKit.framework */,
+				BAF13CBD19939FD90055C677 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF13CA119939FD90055C677 /* GoogleDriveExample */ = {
+			isa = PBXGroup;
+			children = (
+				BAF13CAA19939FD90055C677 /* AppDelegate.h */,
+				BAF13CAB19939FD90055C677 /* AppDelegate.m */,
+				BAF13CAD19939FD90055C677 /* Main_iPhone.storyboard */,
+				BAF13CB019939FD90055C677 /* Main_iPad.storyboard */,
+				BAF13CB319939FD90055C677 /* ViewController.h */,
+				BAF13CB419939FD90055C677 /* ViewController.m */,
+				BAF13CB619939FD90055C677 /* Images.xcassets */,
+				BAF13CA219939FD90055C677 /* Supporting Files */,
+			);
+			path = GoogleDriveExample;
+			sourceTree = "<group>";
+		};
+		BAF13CA219939FD90055C677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF13CA319939FD90055C677 /* GoogleDriveExample-Info.plist */,
+				BAF13CA419939FD90055C677 /* InfoPlist.strings */,
+				BAF13CA719939FD90055C677 /* main.m */,
+				BAF13CA919939FD90055C677 /* GoogleDriveExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAF13CC319939FD90055C677 /* GoogleDriveExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF13CC919939FD90055C677 /* GoogleDriveExampleTests.m */,
+				BAF13CC419939FD90055C677 /* Supporting Files */,
+			);
+			path = GoogleDriveExampleTests;
+			sourceTree = "<group>";
+		};
+		BAF13CC419939FD90055C677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF13CC519939FD90055C677 /* GoogleDriveExampleTests-Info.plist */,
+				BAF13CC619939FD90055C677 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF13C9719939FD90055C677 /* GoogleDriveExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF13CCD19939FD90055C677 /* Build configuration list for PBXNativeTarget "GoogleDriveExample" */;
+			buildPhases = (
+				BAF13C9419939FD90055C677 /* Sources */,
+				BAF13C9519939FD90055C677 /* Frameworks */,
+				BAF13C9619939FD90055C677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDriveExample;
+			productName = GoogleDriveExample;
+			productReference = BAF13C9819939FD90055C677 /* GoogleDriveExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAF13CBB19939FD90055C677 /* GoogleDriveExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF13CD019939FD90055C677 /* Build configuration list for PBXNativeTarget "GoogleDriveExampleTests" */;
+			buildPhases = (
+				BAF13CB819939FD90055C677 /* Sources */,
+				BAF13CB919939FD90055C677 /* Frameworks */,
+				BAF13CBA19939FD90055C677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF13CC219939FD90055C677 /* PBXTargetDependency */,
+			);
+			name = GoogleDriveExampleTests;
+			productName = GoogleDriveExampleTests;
+			productReference = BAF13CBC19939FD90055C677 /* GoogleDriveExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF13C9019939FD90055C677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kirill Pyulzyu";
+				TargetAttributes = {
+					BAF13CBB19939FD90055C677 = {
+						TestTargetID = BAF13C9719939FD90055C677;
+					};
+				};
+			};
+			buildConfigurationList = BAF13C9319939FD90055C677 /* Build configuration list for PBXProject "GoogleDriveExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAF13C8F19939FD90055C677;
+			productRefGroup = BAF13C9919939FD90055C677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF13C9719939FD90055C677 /* GoogleDriveExample */,
+				BAF13CBB19939FD90055C677 /* GoogleDriveExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF13C9619939FD90055C677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF13CB219939FD90055C677 /* Main_iPad.storyboard in Resources */,
+				BAF13CB719939FD90055C677 /* Images.xcassets in Resources */,
+				BAF13CAF19939FD90055C677 /* Main_iPhone.storyboard in Resources */,
+				BAF13CA619939FD90055C677 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF13CBA19939FD90055C677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF13CC819939FD90055C677 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF13C9419939FD90055C677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF13CB519939FD90055C677 /* ViewController.m in Sources */,
+				BAF13CAC19939FD90055C677 /* AppDelegate.m in Sources */,
+				BAF13CA819939FD90055C677 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF13CB819939FD90055C677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF13CCA19939FD90055C677 /* GoogleDriveExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAF13CC219939FD90055C677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF13C9719939FD90055C677 /* GoogleDriveExample */;
+			targetProxy = BAF13CC119939FD90055C677 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAF13CA419939FD90055C677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF13CA519939FD90055C677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAF13CAD19939FD90055C677 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF13CAE19939FD90055C677 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF13CB019939FD90055C677 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF13CB119939FD90055C677 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF13CC619939FD90055C677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF13CC719939FD90055C677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF13CCB19939FD90055C677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAF13CCC19939FD90055C677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF13CCE19939FD90055C677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleDriveExample/GoogleDriveExample-Prefix.pch";
+				INFOPLIST_FILE = "GoogleDriveExample/GoogleDriveExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAF13CCF19939FD90055C677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleDriveExample/GoogleDriveExample-Prefix.pch";
+				INFOPLIST_FILE = "GoogleDriveExample/GoogleDriveExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BAF13CD119939FD90055C677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleDriveExample.app/GoogleDriveExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleDriveExample/GoogleDriveExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoogleDriveExampleTests/GoogleDriveExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BAF13CD219939FD90055C677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleDriveExample.app/GoogleDriveExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleDriveExample/GoogleDriveExample-Prefix.pch";
+				INFOPLIST_FILE = "GoogleDriveExampleTests/GoogleDriveExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF13C9319939FD90055C677 /* Build configuration list for PBXProject "GoogleDriveExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF13CCB19939FD90055C677 /* Debug */,
+				BAF13CCC19939FD90055C677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF13CCD19939FD90055C677 /* Build configuration list for PBXNativeTarget "GoogleDriveExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF13CCE19939FD90055C677 /* Debug */,
+				BAF13CCF19939FD90055C677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAF13CD019939FD90055C677 /* Build configuration list for PBXNativeTarget "GoogleDriveExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF13CD119939FD90055C677 /* Debug */,
+				BAF13CD219939FD90055C677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAF13C9019939FD90055C677 /* Project object */;
+}
