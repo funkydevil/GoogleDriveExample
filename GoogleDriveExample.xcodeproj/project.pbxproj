@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CF6FA0D7DA8FACCC0F53A80 /* KP_GoogleDriveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6F6B81BD6369DD48B89A7 /* KP_GoogleDriveModel.m */; };
+		5CF6FC5A01BB8946DE5A4EC5 /* VCFolderTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6F595FC95E8230FB2154D /* VCFolderTable.m */; };
+		5CF6FC97762033D8C6BE62E1 /* KP_GoogleDriveChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6F03591D6C3749948DB27 /* KP_GoogleDriveChooser.m */; };
+		BA90AA7B199518FE003BEDFF /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA90AA76199518F4003BEDFF /* libGTLTouchStaticLib.a */; };
 		BAF13C9C19939FD90055C677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9B19939FD90055C677 /* Foundation.framework */; };
 		BAF13C9E19939FD90055C677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9D19939FD90055C677 /* CoreGraphics.framework */; };
 		BAF13CA019939FD90055C677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9F19939FD90055C677 /* UIKit.framework */; };
@@ -22,9 +26,42 @@
 		BAF13CC019939FD90055C677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13C9F19939FD90055C677 /* UIKit.framework */; };
 		BAF13CC819939FD90055C677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAF13CC619939FD90055C677 /* InfoPlist.strings */; };
 		BAF13CCA19939FD90055C677 /* GoogleDriveExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF13CC919939FD90055C677 /* GoogleDriveExampleTests.m */; };
+		BAF13CE41993A05B0055C677 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13CE31993A05B0055C677 /* Security.framework */; };
+		BAF13CE61993A0650055C677 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13CE51993A0650055C677 /* SystemConfiguration.framework */; };
+		BAF13CE81993A0710055C677 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF13CE71993A0710055C677 /* MobileCoreServices.framework */; };
+		BAF13CEA1993A1360055C677 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF13CE91993A1360055C677 /* GTMOAuth2ViewTouch.xib */; };
+		BAF13CED1993A1650055C677 /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF13CEB1993A1650055C677 /* GTLDrive_Sources.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BA90AA73199518F4003BEDFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90AA6C199518F4003BEDFF /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLFramework;
+		};
+		BA90AA75199518F4003BEDFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90AA6C199518F4003BEDFF /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027C11A4CA2F00BEB470;
+			remoteInfo = GTLTouchStaticLib;
+		};
+		BA90AA77199518F4003BEDFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90AA6C199518F4003BEDFF /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLUnitTests;
+		};
+		BA90AA79199518F4003BEDFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90AA6C199518F4003BEDFF /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = DevelopmentTestTool;
+		};
 		BAF13CC119939FD90055C677 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BAF13C9019939FD90055C677 /* Project object */;
@@ -35,6 +72,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CF6F03591D6C3749948DB27 /* KP_GoogleDriveChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KP_GoogleDriveChooser.m; sourceTree = "<group>"; };
+		5CF6F33DCB615A49194995D0 /* VCFolderTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFolderTable.h; sourceTree = "<group>"; };
+		5CF6F595FC95E8230FB2154D /* VCFolderTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFolderTable.m; sourceTree = "<group>"; };
+		5CF6F6B81BD6369DD48B89A7 /* KP_GoogleDriveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KP_GoogleDriveModel.m; sourceTree = "<group>"; };
+		5CF6F92C6EBA9F392EC86150 /* KP_GoogleDriveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KP_GoogleDriveModel.h; sourceTree = "<group>"; };
+		5CF6FF4E2086B17DAE0E7632 /* KP_GoogleDriveChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KP_GoogleDriveChooser.h; sourceTree = "<group>"; };
+		BA90AA6C199518F4003BEDFF /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTL.xcodeproj; path = GTL/GTL.xcodeproj; sourceTree = "<group>"; };
 		BAF13C9819939FD90055C677 /* GoogleDriveExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDriveExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF13C9B19939FD90055C677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAF13C9D19939FD90055C677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +99,12 @@
 		BAF13CC519939FD90055C677 /* GoogleDriveExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleDriveExampleTests-Info.plist"; sourceTree = "<group>"; };
 		BAF13CC719939FD90055C677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAF13CC919939FD90055C677 /* GoogleDriveExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleDriveExampleTests.m; sourceTree = "<group>"; };
+		BAF13CE31993A05B0055C677 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BAF13CE51993A0650055C677 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BAF13CE71993A0710055C677 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BAF13CE91993A1360055C677 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../../../Desktop/GoogleDriveSDK/google-api-objectivec-client-read-only/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		BAF13CEB1993A1650055C677 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
+		BAF13CEC1993A1650055C677 /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +112,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA90AA7B199518FE003BEDFF /* libGTLTouchStaticLib.a in Frameworks */,
+				BAF13CE81993A0710055C677 /* MobileCoreServices.framework in Frameworks */,
+				BAF13CE61993A0650055C677 /* SystemConfiguration.framework in Frameworks */,
+				BAF13CE41993A05B0055C677 /* Security.framework in Frameworks */,
 				BAF13C9E19939FD90055C677 /* CoreGraphics.framework in Frameworks */,
 				BAF13CA019939FD90055C677 /* UIKit.framework in Frameworks */,
 				BAF13C9C19939FD90055C677 /* Foundation.framework in Frameworks */,
@@ -81,9 +135,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA90AA6D199518F4003BEDFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA90AA74199518F4003BEDFF /* GTL.framework */,
+				BA90AA76199518F4003BEDFF /* libGTLTouchStaticLib.a */,
+				BA90AA78199518F4003BEDFF /* GTLUnitTests.xctest */,
+				BA90AA7A199518F4003BEDFF /* DevelopmentTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA90AA9219951C54003BEDFF /* KP_GoogleDriveChooser */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6F6B81BD6369DD48B89A7 /* KP_GoogleDriveModel.m */,
+				5CF6F92C6EBA9F392EC86150 /* KP_GoogleDriveModel.h */,
+				5CF6FF4E2086B17DAE0E7632 /* KP_GoogleDriveChooser.h */,
+				5CF6F03591D6C3749948DB27 /* KP_GoogleDriveChooser.m */,
+				5CF6F33DCB615A49194995D0 /* VCFolderTable.h */,
+				5CF6F595FC95E8230FB2154D /* VCFolderTable.m */,
+			);
+			name = KP_GoogleDriveChooser;
+			sourceTree = "<group>";
+		};
 		BAF13C8F19939FD90055C677 = {
 			isa = PBXGroup;
 			children = (
+				BA90AA6C199518F4003BEDFF /* GTL.xcodeproj */,
 				BAF13CA119939FD90055C677 /* GoogleDriveExample */,
 				BAF13CC319939FD90055C677 /* GoogleDriveExampleTests */,
 				BAF13C9A19939FD90055C677 /* Frameworks */,
@@ -103,6 +182,9 @@
 		BAF13C9A19939FD90055C677 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAF13CE71993A0710055C677 /* MobileCoreServices.framework */,
+				BAF13CE51993A0650055C677 /* SystemConfiguration.framework */,
+				BAF13CE31993A05B0055C677 /* Security.framework */,
 				BAF13C9B19939FD90055C677 /* Foundation.framework */,
 				BAF13C9D19939FD90055C677 /* CoreGraphics.framework */,
 				BAF13C9F19939FD90055C677 /* UIKit.framework */,
@@ -114,6 +196,9 @@
 		BAF13CA119939FD90055C677 /* GoogleDriveExample */ = {
 			isa = PBXGroup;
 			children = (
+				BAF13CEB1993A1650055C677 /* GTLDrive_Sources.m */,
+				BAF13CEC1993A1650055C677 /* GTLDrive.h */,
+				BAF13CE91993A1360055C677 /* GTMOAuth2ViewTouch.xib */,
 				BAF13CAA19939FD90055C677 /* AppDelegate.h */,
 				BAF13CAB19939FD90055C677 /* AppDelegate.m */,
 				BAF13CAD19939FD90055C677 /* Main_iPhone.storyboard */,
@@ -122,6 +207,7 @@
 				BAF13CB419939FD90055C677 /* ViewController.m */,
 				BAF13CB619939FD90055C677 /* Images.xcassets */,
 				BAF13CA219939FD90055C677 /* Supporting Files */,
+				BA90AA9219951C54003BEDFF /* KP_GoogleDriveChooser */,
 			);
 			path = GoogleDriveExample;
 			sourceTree = "<group>";
@@ -218,6 +304,12 @@
 			mainGroup = BAF13C8F19939FD90055C677;
 			productRefGroup = BAF13C9919939FD90055C677 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BA90AA6D199518F4003BEDFF /* Products */;
+					ProjectRef = BA90AA6C199518F4003BEDFF /* GTL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BAF13C9719939FD90055C677 /* GoogleDriveExample */,
@@ -226,11 +318,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		BA90AA74199518F4003BEDFF /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = BA90AA73199518F4003BEDFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA90AA76199518F4003BEDFF /* libGTLTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTLTouchStaticLib.a;
+			remoteRef = BA90AA75199518F4003BEDFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA90AA78199518F4003BEDFF /* GTLUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.xctest;
+			remoteRef = BA90AA77199518F4003BEDFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA90AA7A199518F4003BEDFF /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = BA90AA79199518F4003BEDFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		BAF13C9619939FD90055C677 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF13CEA1993A1360055C677 /* GTMOAuth2ViewTouch.xib in Resources */,
 				BAF13CB219939FD90055C677 /* Main_iPad.storyboard in Resources */,
 				BAF13CB719939FD90055C677 /* Images.xcassets in Resources */,
 				BAF13CAF19939FD90055C677 /* Main_iPhone.storyboard in Resources */,
@@ -254,8 +378,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF13CB519939FD90055C677 /* ViewController.m in Sources */,
+				BAF13CED1993A1650055C677 /* GTLDrive_Sources.m in Sources */,
 				BAF13CAC19939FD90055C677 /* AppDelegate.m in Sources */,
 				BAF13CA819939FD90055C677 /* main.m in Sources */,
+				5CF6FA0D7DA8FACCC0F53A80 /* KP_GoogleDriveModel.m in Sources */,
+				5CF6FC97762033D8C6BE62E1 /* KP_GoogleDriveChooser.m in Sources */,
+				5CF6FC5A01BB8946DE5A4EC5 /* VCFolderTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,12 +516,18 @@
 		BAF13CCE19939FD90055C677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleDriveExample/GoogleDriveExample-Prefix.pch";
 				INFOPLIST_FILE = "GoogleDriveExample/GoogleDriveExample-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/GTL\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -401,12 +535,18 @@
 		BAF13CCF19939FD90055C677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleDriveExample/GoogleDriveExample-Prefix.pch";
 				INFOPLIST_FILE = "GoogleDriveExample/GoogleDriveExample-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/GTL\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +610,7 @@
 				BAF13CCF19939FD90055C677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAF13CD019939FD90055C677 /* Build configuration list for PBXNativeTarget "GoogleDriveExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +619,7 @@
 				BAF13CD219939FD90055C677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
